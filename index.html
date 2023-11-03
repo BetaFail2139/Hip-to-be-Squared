@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hip to be Squared</title>
+    <style type="text/css">
+        canvas {
+            border: 1px solid black;
+        }
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+    <img id="playerimg" src="./images/playerimg.svg" width="30" height="30" hidden="true">
+    <img id="blank" src="" width="1" height="1" hidden="true">
+    <img id="shellweapon" src="./images/shellimg.svg" width="45" height="14.75" hidden="true">
+    <img id="mathgunbullet" src="./images/mathgunbulletimg.svg" width="20" height="20" hidden="true" radius="55">
+    <img id="mathgunweapon" src="./images/mathgunweaponimg.svg" width="17.05" height="27.15" hidden="true">
+    <img id="mathgunweaponreversed" src="./images/mathgunweaponimgreversed.svg" width="17.05" height="27.15" hidden="true">
+    <img id="bulletplaceholder" src="./images/bulletplaceholderimg.svg" width="10" height="10" hidden="true" radius="15">
+</head>
+<body>
+    <canvas onmousemove="xy(event)"></canvas>
+    <script src="canvas.js"></script>
+</body>
+</html>
